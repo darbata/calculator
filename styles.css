@@ -1,0 +1,39 @@
+button {
+	width: 64px;
+	height: 64px;
+	padding: 0px;
+	margin: 0px;
+	gap: 0px;
+	flex-shrink: 0;
+}
+
+.display {
+	box-sizing: border-box;
+	padding: 4px;
+	height: 64px;
+	width: 192px;
+	border: 2px dashed;
+	border-color: black;
+	background-color: grey;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.calculator {
+	width: 192px;
+}
+
+.app-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.buttons {
+	display: flex;
+	flex-wrap: wrap;
+}
